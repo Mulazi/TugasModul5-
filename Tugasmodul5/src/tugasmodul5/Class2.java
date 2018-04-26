@@ -32,8 +32,7 @@ public class Class2 {
                 case 1:
                     Scanner p1 = new Scanner(System.in);
                     int i;
-                    do {
-                        System.out.print("Masukkan jumlah pesanan : ");
+                    System.out.print("Masukkan jumlah pesanan : ");
                     int pesanan = p1.nextInt();
                     if (pesanan > 50) {
                         return "Pesanan "+ pesanan +" melebihi batas pembelian";
@@ -41,8 +40,7 @@ public class Class2 {
                     else {
                         return "Jumlah pesanan : "+pesanan+"\nTerimasih Telah Berbelanja di Toko Kami ";
                     }
-                    } while(i>50);
-                    
+                                        
                 case 2:
                     Scanner p2 = new Scanner(System.in);
                     System.out.print("Masukkan jumlah pesanan : ");
